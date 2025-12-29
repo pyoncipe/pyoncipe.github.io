@@ -1,0 +1,519 @@
+a{
+   color: #6e5962;
+   text-decoration: none;
+}
+
+a:hover {
+   color: #0000;
+}
+
+:root{
+   --border: #a17989
+}
+
+
+@font-face {
+   font-family: AdorableLady;
+   src: url(AdorableLady.ttf);
+}
+
+@font-face {
+   src: url(Loverine.otf);
+   font-family: loverine;
+}
+
+@font-face {
+   src: url(basiic.ttf);
+   font-family: basiic;
+}
+
+@font-face {
+   src: url(littlebigalphabet.ttf);
+   font-family: littlebigalphabet;
+}
+
+
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   margin-bottom: -10px;
+   background-image: url(https://file.garden/Z3SR9FRyjwenTSIO/fondos/heart-quilt-dithered-choco.png);
+   background-attachment: fixed;
+}
+
+.wrap{
+   font-family: 'basiic';
+   margin: 0 auto;
+   position: relative;
+   padding: 10px;
+   width:920px;
+   padding-bottom: 0px;
+   margin-top: 40px;
+   background: white;
+   display: flex;
+   flex-direction: column;
+}
+
+.top{
+   width: auto;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+}
+
+.middle{
+   width: auto;
+   position: relative;
+   display: flex;
+   justify-content: flex-start;
+}
+
+.right{
+   width: 196px;
+   height: 435px;
+   margin: 5px;
+   margin-top: -10px;
+   padding: 3px;
+   background: #fff1f8;
+   border: 1px solid #00000022;
+   display: flex;
+   flex-direction: column;
+}
+
+.left{
+   width: 212px;
+   padding: 5px;
+   justify-content: flex-start;
+}
+
+.middledown{
+   display: flex;
+   justify-content: flex-start;
+}
+
+.bottom{
+   font-family: basiic;
+   text-align: center;
+   font-size: 1em;
+   color: #FEB1D2;
+   margin: 0 auto;
+   display: flex;
+}
+
+/* esenciales */
+
+.main{
+   width: 500px;
+   height: 440px;
+   margin-top: -10px;
+   border: 1px solid #00000022;
+   background: url(https://file.garden/Z3SR9FRyjwenTSIO/fondos/pink-pink3-diamond-bg.png);
+}
+
+.divwrap{
+   width: 500px;
+   height: 265px;
+   text-align: center;;
+   margin: 5px;
+   margin-top: -10px;
+   padding: 20px;
+   border: 1px solid #00000022;
+   background: url(https://file.garden/Z3SR9FRyjwenTSIO/fondos/dot3.png);
+}
+
+.divwrap p{
+   display: inline;
+   font-family: littlebigalphabet;
+   font-size: 20px;
+   margin-bottom: 10px;
+   letter-spacing: 1px;
+   font-weight: 400;
+   text-shadow: -1px 0 #8D6E7C, 0 1px #8D6E7C, 1px 0 #8D6E7C, 0 -1px #8D6E7C,  1px 1px 0 #8D6E7C;
+   color: white;
+}
+
+#boxdiv{
+   width: auto;
+   height: 120px;
+   background: white;
+   margin: 10px;
+   position: relative;
+   padding: 10px;
+   border: 1px solid #00000011;
+   border-radius: 4px;
+}
+
+#todo{
+   width: auto;
+   height: 115px;
+   background: url('https://file.garden/Z3SR9FRyjwenTSIO/fondos/grid1.png') 0px 0px / 22px;
+   text-align: left;
+   border: 1px solid white;
+   border-radius: 4px;
+   overflow-y: scroll;
+   padding: 04px 10px 0px 10px;
+}
+
+#todo p{
+display: inline;
+font-family: littlebigalphabet;
+color: white;
+font-size: 25px;
+text-shadow: 0px 0px 2px hotpink, 0px 0px 2px hotpink, 0px 0px 2px hotpink;
+font-weight: 800;
+}
+
+#todo-tittle {
+   position: absolute;
+   z-index: 30;
+   top: 860px;
+   left: -30;
+}
+
+#todo-tittle h1{
+display: inline;
+font-family: loverine;
+font-size: 22px;
+color: white;
+text-shadow: 
+0px 0px 3px #00000022,-2px -2px 1px hotpink, -2px -2px 1px hotpink, 2px -2px 0px hotpink, -2px 2px 0px hotpink,
+-2px -2px 1px hotpink, -2px -2px 1px hotpink, 2px -2px 0px hotpink, -2px 2px 0px hotpink,
+-2px -2px 1px hotpink,-2px -2px 1px hotpink,
+-2px -2px 1px hotpink, -2px -2px 1px hotpink, 2px -2px 0px hotpink, 2px 2px 0px hotpink,
+ 3px 4px 1px #00000022;
+}
+
+#hachikawa {
+width: 200px;
+height: 160px;
+position: absolute;
+bottom: 40px; right: 25px;
+background: url('https://file.garden/Z3SR9FRyjwenTSIO/85808049.png') 0px 0px / cover no-repeat;
+transition: opacity .6s;
+}
+#hachikawa:hover{
+opacity: 0;
+}
+
+#bento{
+   width: auto;
+   height: 60px;
+   background: white;
+   margin: 10px;
+   position: relative;
+   padding: 10px;
+   border: 1px solid #00000011;
+   border-radius: 4px;
+}
+
+#buttons {
+   width: auto;
+   height: 50px;
+   background: url('https://file.garden/Z3SR9FRyjwenTSIO/fondos/grid1.png') 0px 0px / 22px; 
+   border: 1px solid white;
+   border-radius: 4px;
+   overflow-y: scroll;
+   padding: 04px 10px 0px 10px;
+}
+
+.creators{
+   width: 392px;
+   text-align: center;
+   margin: 5px;
+   margin-top: -10px;
+   border: 1px solid #00000022;
+   background: url('https://file.garden/Z3SR9FRyjwenTSIO/fondos/dot3.png') 0px 0px ;
+   position: relative;
+}
+
+#creator-title{
+   width: 244px;
+   height: 30px;
+   text-align: center;
+   position: absolute;
+   z-index: 30;
+}
+
+#creator-title h1{
+   font-family: littlebigalphabet;
+   display: inline;
+   font-size: 30px;
+   color: white;
+   text-shadow: -1px 0 #8D6E7C, 0 1px #8D6E7C, 1px 0 #8D6E7C, 0 -1px #8D6E7C,  1px 1px 0 #8D6E7C;
+}
+
+.box{
+   margin: 20px;
+   width: auto;
+   height: 260px;
+   background: white;
+  border: 1px solid #00000011;
+   border-radius: 4px;
+   position: relative;
+   overflow-y: scroll;
+}
+
+#intro{
+   font-size: 1.0em;
+   text-align: left;
+   width: auto;
+   height: 330px;
+   margin: 20px;
+   padding: 20px;
+   padding-top: 40px;
+   background: white;
+   border: 1px solid #00000022;
+   border-radius: 10px;
+   color: #856371;
+   overflow-y: scroll;
+}
+
+.intro::-webkit-scrollbar{
+   display: none;
+}
+
+.bbg{
+   padding: 3px;
+   background: white;
+   border: 1px solid #00000022;
+}
+
+.cliques{
+   padding: 5px;
+   margin: 10px;
+   border-radius: 4px;
+   border: 4px solid white;
+   box-shadow: 0px 0px 4px inset #00000044, 0px 0px 4px #00000022;
+   background: url('https://file.garden/Z3SR9FRyjwenTSIO/fondos/dot3.png') 0px 0px ;
+}
+
+.updates{
+   width: auto;
+   height: 150px;
+   background: white;
+   margin: 10px;
+   border: 4px solid white;
+   box-shadow: 0px 0px 4px inset #00000044, 0px 0px 4px #00000022;
+   border-radius: 4px;
+   padding: 20px;
+   background: url('https://file.garden/Z3SR9FRyjwenTSIO/fondos/pattern') 0px 0px ; 
+   position: relative;
+   margin-top: -5px;
+}
+
+.list {
+   width: auto;
+   height: 70px;
+   overflow-y: scroll;
+   padding: 20px;
+   margin-top: 15px;
+   background: white;
+   border: 1px solid #00000022;
+}
+
+.list p{
+   display: inline;
+   font-size: 12px;
+   color: #91716b;
+   text-decoration: underline 1px dotted pink;
+}
+
+.list h2{
+   display: inline;
+   font-size: 13px;
+   color: black;
+}
+
+.updates h1{
+   font-family: loverine;
+   display: inline;
+   font-size: 20px;
+   color: white;
+   filter: drop-shadow(0px 0px 1px #91716b) drop-shadow(0px 0px 0px #91716b) drop-shadow(0px 0px 0px #91716b) drop-shadow(0px 0px 0px #91716b) drop-shadow(1px 1px 1px #91716b)
+}
+
+.nav{
+   width: 212px;
+   height: 320px;
+   margin-top: -15px;
+   background: transparent
+}
+
+.navli{
+   width: auto;
+   color: white;
+   font-size: 11px;
+   padding: 6px 2px 8px 6px;
+}
+
+.navli p{
+   border-bottom: 1px dotted brown;
+}
+
+.nav::-webkit-scrollbar{
+display: none;
+}
+
+.navtap{
+   width: 90%;
+   margin: 0 auto;
+   font-family: 'AdorableLady';
+   font-size: 30px;
+   color: #fff;
+   display: inline;
+   font-size: 12px;
+   color: #79576799;
+}
+
+.nav::-webkit-scrollbar{
+display: none;
+}
+
+#tt{
+width: auto;
+height: 60px;
+background: url('https://file.garden/Z3SR9FRyjwenTSIO/decometest7.png');
+position: relative;
+top: 0px; left: 0px;
+}
+
+.space{
+width: auto;
+height: 15px;
+background: white;
+}
+
+.space-dos{
+width: auto;
+height: 15px;
+}
+
+#whipped{
+  width: auto;
+  height: 41px;
+  position: relative;
+  bottom: 29px;
+  z-index: 70;
+  left: 0px;
+  background: url('https://file.garden/Z3SR9FRyjwenTSIO/whipped.png') -13px 0px;
+}
+
+#ad{
+   width: 150px;
+   height: 20px;
+   margin: 10px;
+   align-content: center;
+   position: relative;
+   background: url('https://file.garden/Z3SR9FRyjwenTSIO/tumblr_97544daa3d5674f01888e8bde34e4660_2cb9f9c8_250.webp') no-repeat;
+   border: 4px solid white;
+   box-shadow: 0px 0px 4px inset #00000044, 0px 0px 4px #00000022;
+}
+
+.border {
+height: 1055px;
+width: 23px;
+position: absolute;
+background: url('https://files.catbox.moe/tbzdye.png') 0px 0px / contain;
+top: 0px;
+}
+#b-left {
+right: -20px;
+}
+
+#b-right {
+left: -20px;
+transform: rotate(180deg);
+}
+
+/*header*/
+#bg-img{
+position: absolute;
+right: 00px;
+top: 0px;
+width: 270px;
+height: 160px;
+background: url('https://file.garden/Z3SR9FRyjwenTSIO/nose.png') 0px -40px / 240px no-repeat;
+z-index: 40;
+filter: hue-rotate(5deg);
+}
+
+.bg-holder{
+position: absolute;
+top: 50px;
+left: 20px;
+
+}
+.bg-holder h1{
+display: inline;
+font-family: ;
+font-size: 63px;
+color: #7F6565;
+filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 0px white) drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 0px white) drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white) drop-shadow(0px 1px 0px #00000032 );
+
+}
+.bg-url{
+position: absolute;
+top: 50px;
+left: 0px;
+
+}
+.bg-url h1{
+display: inline;
+font-size: 23px;
+font-family: 'loverine';
+background: url(https://file.garden/Z3SR9FRyjwenTSIO/fondos/dots6.jpg) 0px 0px ;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: spirit;
+}
+
+.bg {
+background: url(https://file.garden/Z3SR9FRyjwenTSIO/fondos/x12-bg-checked.gif);
+height: 160px;
+}
+
+.tittle{
+width: 1000%;
+background: url(https://i.imgur.com/hjFt8kC.png);
+background-size: 20%;
+text-align: right;
+font-family: 'loverine';
+font-weight: 400;
+font-size: 25px;
+margin: 0;
+text-shadow: 1px 0px #db93b3, -1px 0px #db93b3, 0px 1px #db93b3,
+    0px -1px #db93b3, 0 0;
+color: #fff;
+box-shadow: 3px 3px 3px #965c7f;
+padding: 2px;
+border-radius: 5px;
+}
+
+#dates {
+font-family: 'basiic';
+box-shadow: 3px 3px 3px #c98fb2;
+text-shadow: 1px 0px #5e554b, -1px 0px #5e554b, 0px 1px #5e554b, 0px -1px #5e554b, 0 0;
+color: #fff;
+letter-spacing: 4px;
+font-size: 16px;
+font-weight: 900;
+border: 1px solid #d186b3;
+border-radius: 5px;
+padding: 2px;
+background-image: url(https://file.garden/Z3SR9FRyjwenTSIO/gridpatternp.png);
+background-size: 20%; 
+}
+
+.lace {
+  pointer-events: none;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  background: url(https://file.garden/Z3SR9FRyjwenTSIO/pink-cross-lace.png) repeat left top;
+  z-index: 99999999;
+  filter: drop-shadow(0px 0px 1px white) drop-shadow(0px 0px 1px white)
+    drop-shadow(0px 0px 1px white) drop-shadow(1px 1px 0px #0000004d);
+}
